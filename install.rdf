@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+        <Description about="urn:mozilla:install-manifest">
+                <em:targetApplication>
+                        <Description>
+                                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- Thunderbird -->
+                                <em:minVersion>5.0</em:minVersion>
+                                <em:maxVersion>45.*</em:maxVersion>
+                        </Description>
+                </em:targetApplication>
+                <em:id>TilingNotify@milaq.net</em:id>
+                <em:type>2</em:type>
+                <em:name>Tiling notify</em:name>
+                <em:bootstrap>true</em:bootstrap>
+                <em:version>1.0</em:version>
+                <em:description>Provides notifications using the notify-send library and sets the urgent flag of the Thunderbird window preferably for use with tiling WMs. Requires notify-send and wmctrl. This project is based on 'Enhanced Desktop Notifications' by Alex Cabal[alex@alexcabal.com].</em:description>
+                <em:creator>Alex Cabal, Micha LaQua</em:creator>
+                <em:homepageURL>https://milaq.net</em:homepageURL>
+        </Description>
+</RDF>
